@@ -6606,6 +6606,7 @@ bool Unit::HandleDummyAuraProc(Unit* victim, uint32 damage, AuraEffect* triggere
                             target = this;
                             break;
                         }
+
                     case 240033:
                         {
                             triggered_spell_id = 52724;
@@ -6613,6 +6614,7 @@ bool Unit::HandleDummyAuraProc(Unit* victim, uint32 damage, AuraEffect* triggere
                             target = this;
                             break;
                         }
+
                     case 240034:
                         {
                             triggered_spell_id = 52724;
