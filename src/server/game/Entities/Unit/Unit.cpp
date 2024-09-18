@@ -6621,7 +6621,15 @@ bool Unit::HandleDummyAuraProc(Unit* victim, uint32 damage, AuraEffect* triggere
                             basepoints0 = damage / 10;
                             target = this;
                             break;
-                        }                        
+                        }
+
+                    case 240035:
+                       {
+                        triggered_spell_id = 52724;
+                        basepoints0 = damage / 5;
+                        target = this;
+                        break;
+                       }
 
                     // Aura of Madness (Darkmoon Card: Madness trinket)
                     //=====================================================
